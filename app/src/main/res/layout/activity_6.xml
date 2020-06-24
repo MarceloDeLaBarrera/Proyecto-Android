@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity2">
+    tools:context=".Activity6">
 
     <TextView
-        android:id="@+id/descripcion"
+        android:id="@+id/descripcion2"
         android:layout_width="410dp"
         android:layout_height="379dp"
         android:layout_marginTop="68dp"
         android:layout_marginBottom="284dp"
         android:fontFamily="@font/coming_soon"
-        android:text="El fin de este proyecto será crear una plataforma web para los trabajadores de TravelFly S.A, que les permitirá obtener información de los viajes, buses y choferes disponibles, cancelar un viaje ante una eventualidad, así como también, la visualización de los pasajes reservados por sus clientes. Entre los servicios ofrecidos por la empresa y los requeridos por sus usuarios, los trabajadores de la empresa podrán manipular la plataforma para gestionar los viajes de sus clientes, y llevar un registro de sus máquinas y choferes, y a su vez los clientes tendrán la posibilidad de igualmente ver los viajes disponibles y poder reservar un pasaje, o cancelarlo si así lo desean."
+        android:text="TravelFly S.A, actualmente, presenta dificultades en algunos de sus procesos, los cuales está llevando a cabo utilizando un procedimiento manual de registro y seguimiento de las reservas ingresadas, pero no llega a ser eficiente, ya que origina retrasos, fallos y ciclos de trabajo más largos impactando negativamente en el rendimiento de cada una de las gestiones. Es por esto, que se vió en la necesidad de una herramienta que le brinde una solución que permitiese optimizar sus actividades. Dado lo anterior, el área de desarrollo en conjunto con el área de finanzas, nos solicitan la creación de una plataforma web que permita visualizar viajes disponibles, reserva de pasajes, llevar el reporte de los choferes y buses disponibles, entre otros."
         android:textColor="@android:color/black"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,9 +23,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="123dp"
-        android:layout_height="37dp"
+        android:id="@+id/textView3"
+        android:layout_width="203dp"
+        android:layout_height="32dp"
         android:layout_marginStart="17dp"
         android:layout_marginLeft="17dp"
         android:layout_marginTop="19dp"
@@ -33,11 +33,12 @@
         android:layout_marginRight="271dp"
         android:layout_marginBottom="675dp"
         android:fontFamily="@font/coming_soon"
-        android:text="Descrpción Proyecto"
+        android:text="Problema o Situacion Abordada"
         android:textColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
