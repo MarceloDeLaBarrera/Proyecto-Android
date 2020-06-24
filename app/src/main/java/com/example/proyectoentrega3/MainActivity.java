@@ -1,5 +1,6 @@
 package com.example.proyectoentrega3;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -21,19 +22,33 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-        ViewPager viewPager = findViewById(R.id.view_pager);
-        viewPager.setAdapter(sectionsPagerAdapter);
-        TabLayout tabs = findViewById(R.id.tabs);
-        tabs.setupWithViewPager(viewPager);
-        FloatingActionButton fab = findViewById(R.id.fab);
-
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+    }
+    public void IrActivity1(View view){
+        Intent obj_intent = new Intent(this, MainActivity.class);
+        startActivity(obj_intent);
+    }
+    public void IrActivity2(View view){
+        Intent obj_intent = new Intent(this, Activity2.class);
+        startActivity(obj_intent);
+    }
+    public void IrActivity3(View view){
+        Intent obj_intent = new Intent(this, Activity3.class);
+        startActivity(obj_intent);
+    }
+    public void IrActivity4(View view){
+        Intent obj_intent = new Intent(this, Activity4.class);
+        startActivity(obj_intent);
+    }
+    public void IrActivity5(View view){
+        Intent obj_intent = new Intent(this, Activity5.class);
+        startActivity(obj_intent);
+    }
+    public void IrActivity6(View view){
+        Intent obj_intent = new Intent(this, Activity6.class);
+        startActivity(obj_intent);
+    }
+    public void IrActivity7(View view){
+        Intent obj_intent = new Intent(this, Activity7.class);
+        startActivity(obj_intent);
     }
 }

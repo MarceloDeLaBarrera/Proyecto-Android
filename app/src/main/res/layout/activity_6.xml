@@ -8,37 +8,45 @@
 
     <TextView
         android:id="@+id/descripcion2"
-        android:layout_width="410dp"
-        android:layout_height="379dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginBottom="284dp"
+        android:layout_width="330dp"
+        android:layout_height="477dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"
         android:fontFamily="@font/coming_soon"
         android:text="TravelFly S.A, actualmente, presenta dificultades en algunos de sus procesos, los cuales está llevando a cabo utilizando un procedimiento manual de registro y seguimiento de las reservas ingresadas, pero no llega a ser eficiente, ya que origina retrasos, fallos y ciclos de trabajo más largos impactando negativamente en el rendimiento de cada una de las gestiones. Es por esto, que se vió en la necesidad de una herramienta que le brinde una solución que permitiese optimizar sus actividades. Dado lo anterior, el área de desarrollo en conjunto con el área de finanzas, nos solicitan la creación de una plataforma web que permita visualizar viajes disponibles, reserva de pasajes, llevar el reporte de los choferes y buses disponibles, entre otros."
         android:textColor="@android:color/black"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="203dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginLeft="17dp"
-        android:layout_marginTop="19dp"
-        android:layout_marginEnd="271dp"
-        android:layout_marginRight="271dp"
-        android:layout_marginBottom="675dp"
+        android:layout_width="206dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/coming_soon"
         android:text="Problema o Situacion Abordada"
         android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="289dp"
+        android:layout_marginLeft="289dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="176dp"
+        android:onClick="IrActivity1"
+        android:text="Volver"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/descripcion2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

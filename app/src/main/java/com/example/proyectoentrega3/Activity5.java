@@ -2,6 +2,7 @@ package com.example.proyectoentrega3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -79,5 +80,9 @@ public class Activity5 extends AppCompatActivity {
 
         }
 
+    public void IrActivity1(View view){
+        Intent obj_intent = new Intent(this, MainActivity.class);
+        startActivity(obj_intent);
+    }
 
     }
